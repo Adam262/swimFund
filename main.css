@@ -26,13 +26,12 @@ body {
 .title-box {
   top: 10vh;
   width: 75%;
-  padding: 1%;
 }
 
 .text-box {
-  height: 6em;
-  width: 12em;
-  top: 50vh;
+  height: 5em;
+  width: 10em;
+  top: 40vh;
 }
 
 .text {
