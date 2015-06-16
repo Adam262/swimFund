@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+@keyframes border-to-black {
+  from { border-color: white; }
+  to { border-color: black; }
+}
+
+body {
+  overflow: hidden;
+  margin: 0 0;
+}
+
+.section {
+  height: 100vh;
+  width: 100vw;
+  background: no-repeat url('./images/splash1.jpg');
+  background-size: cover;
+}
+.box {
+  border: 1em solid white;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.title-box {
+  top: 10vh;
+  width: 75%;
+  padding: 1%;
+}
+
+.text-box {
+  height: 6em;
+  width: 12em;
+  top: 50vh;
+}
+
+.text {
+  font-family: 'Open Sans', Helvetica, san-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1:active {
+  color: black;
+}
+
+.box:hover {
+  border: 1em solid black;
+  animation-name: border-to-black;
+  animation-duration: 3s;
+}
+
+
+
