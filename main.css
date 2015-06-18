@@ -21,6 +21,7 @@ body {
   text-align: center;
   margin: 0 auto;
   position: relative;
+  padding: 0.5% 1.5%;
 }
 
 .title-box {
@@ -43,8 +44,13 @@ a {
   text-decoration: none;
 }
 
-h1:active {
+h1:hover {
   color: black;
+  transition: color 3s ease;
+}
+
+h1:active {
+  color: white;
 }
 
 .box:hover {
@@ -52,6 +58,17 @@ h1:active {
   animation-name: border-to-black;
   animation-duration: 3s;
 }
+
+@media only screen and (max-width:768px) {
+  h2 {
+    font-size: 1em;
+  } 
+
+  .text-box {
+    top: 30vh;
+  }
+}
+
 
 
 
