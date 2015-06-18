@@ -1,10 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
-@keyframes border-to-black {
-  from { border-color: white; }
-  to { border-color: black; }
-}
-
 body {
   overflow: hidden;
   margin: 0 0;
@@ -46,6 +41,9 @@ a {
 
 h1:hover {
   color: black;
+  -moz-transition: color 3s ease;
+  -webkit-transition: color 3s ease;
+  -o-transition: color 3s ease;
   transition: color 3s ease;
 }
 
@@ -54,9 +52,11 @@ h1:active {
 }
 
 .box:hover {
-  border: 1em solid black;
-  animation-name: border-to-black;
-  animation-duration: 3s;
+  border-color: black;
+  -moz-transition: border-color 3s ease;
+  -webkit-transition: border-color 3s ease;
+  -o-transition: border-color 3s ease;
+  transition: border-color 3s ease;
 }
 
 @media only screen and (max-width:768px) {
