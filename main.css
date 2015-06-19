@@ -53,23 +53,24 @@ h1:active {
 
 .box:hover {
   border-color: black;
-  -moz-transition: border-color 3s ease;
+  3-moz-transition: border-color 3s ease;
   -webkit-transition: border-color 3s ease;
   -o-transition: border-color 3s ease;
   transition: border-color 3s ease;
 }
 
 @media only screen and (max-width:768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
   h2 {
     font-size: 1em;
   } 
 
   .text-box {
+    height: 4em;
+    width: 8em;
     top: 30vh;
   }
 }
-
-
-
-
-
