@@ -53,7 +53,7 @@ h1:active {
 
 .box:hover {
   border-color: black;
-  3-moz-transition: border-color 3s ease;
+  -moz-transition: border-color 3s ease;
   -webkit-transition: border-color 3s ease;
   -o-transition: border-color 3s ease;
   transition: border-color 3s ease;
