@@ -8,7 +8,7 @@ body {
 .section {
   height: 100vh;
   width: 100vw;
-  background: no-repeat url('./images/splash1_low_res.jpg');
+  background: no-repeat url('./images/splash.jpg');
   background-size: cover;
 }
 .box {
