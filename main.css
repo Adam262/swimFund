@@ -35,20 +35,21 @@ body {
   color: white;
 }
 
+h1.text {
+  color: black;
+}
+
 a {
+  color: black;
   text-decoration: none;
 }
 
-h1:hover {
-  color: black;
+a:hover, h1:hover {
+  color: white;
   -moz-transition: color 3s ease;
   -webkit-transition: color 3s ease;
   -o-transition: color 3s ease;
   transition: color 3s ease;
-}
-
-h1:active {
-  color: white;
 }
 
 .box:hover {
