@@ -8,7 +8,7 @@ body {
 .section {
   height: 100vh;
   width: 100vw;
-  background: no-repeat url('./images/splash.jpg');
+  background: no-repeat url('./images/ptown-splash2.jpg');
   background-size: cover;
 }
 .box {
@@ -33,6 +33,7 @@ body {
 .text {
   font-family: 'Open Sans', Helvetica, san-serif;
   color: white;
+  line-height: 1.2;
 }
 
 h1.text {
